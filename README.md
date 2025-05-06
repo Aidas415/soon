@@ -15,7 +15,7 @@ This project is for educational porpuses only, Pull rquest are welcome, but prio
 
 site published at :  https://aidas415.github.io/soon/
 
-design: ![😟](./img/project-design.png/)
+design: ![😟](./project-design.png/)
 
 ## 🎯 Project features/goals
 

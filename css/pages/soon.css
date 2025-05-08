@@ -17,7 +17,7 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-/*
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -31,20 +31,6 @@ body {
     text-align: center;
     width: 600px;
 }
-*/
-.row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.row-short {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-
-
 
 header > .row-short {
     gap:20px;
@@ -87,7 +73,7 @@ footer a {
     display: flex;
     gap: 30px;
 }
-/*
+
 @media (max-width: 1100px) {
     .row {
         width: 800px;
@@ -124,52 +110,7 @@ footer a {
         width: 100%;
     }
 }
-*/
 
-@media (min-width: 500px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .row {
-        width: 100%;
-        background-color: rgb(177, 78, 7);
-    }
-
-    .row-short {
-        width: 100px;
-    }
-}
-
-@media (min-width: 700px) {
-    .row {
-        width: 500px;
-        background-color: coral;
-    }
-
-    .row-short {
-        width: 470px;
-    }
-}
-
-@media (min-width: 900px) {
-    .row {
-        width: 600px;
-        background-color: orange;
-    }
-
-    .row-short {
-        width: 550px;
-    }
-}
-
-@media (min-width 1100px) {
-    .row {
-        width: 800px;
-        background-color: yellow;
-    }
-}
 
 
 

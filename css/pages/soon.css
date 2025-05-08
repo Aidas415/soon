@@ -1,0 +1,179 @@
+body,
+body * {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/*
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.row-short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+}
+*/
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.row-short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+header > .row-short {
+    gap:20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.column + .column {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.bg-blue {
+    background-color: rgb(87, 161, 231);
+}
+
+.logo {
+    height: 20px;
+}
+
+.logo-white {
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+footer {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+footer a {
+    color: #fff;
+}
+
+.text-trio {
+    display: flex;
+    gap: 30px;
+}
+/*
+@media (max-width: 1100px) {
+    .row {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .row {
+        width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .row {
+        width: 400px;
+    }
+
+    .row-short {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .row-short {
+        width: 100%;
+    }
+}
+*/
+
+@media (min-width: 500px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .row {
+        width: 100%;
+        background-color: rgb(177, 78, 7);
+    }
+
+    .row-short {
+        width: 100px;
+    }
+}
+
+@media (min-width: 700px) {
+    .row {
+        width: 500px;
+        background-color: coral;
+    }
+
+    .row-short {
+        width: 470px;
+    }
+}
+
+@media (min-width: 900px) {
+    .row {
+        width: 600px;
+        background-color: orange;
+    }
+
+    .row-short {
+        width: 550px;
+    }
+}
+
+@media (min-width 1100px) {
+    .row {
+        width: 800px;
+        background-color: yellow;
+    }
+}
+
+
+
+
+
+
+

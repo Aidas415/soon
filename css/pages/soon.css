@@ -75,11 +75,13 @@ footer a {
     text-decoration: none;
     border-radius: 50%;
     background-color: #fff0;
-    color: #000;
+    color: #fff;
     text-align: center;
+    transition: color 0.4s;
 }
 .socials a:hover {
     background-color: #fff;
+    color: #03a9f5;
 }
 
 .text-trio {

@@ -6,13 +6,14 @@
     background-image: url(../../img/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
     justify-content: center;
 }
 
 .logo {
-    height: 20px;
+    height: 40px;
 }
 
 .main-title {
@@ -23,7 +24,25 @@
 
 .main-description {
     font-size: 22px;
-    color: #ccc;
+    border-color: #ccc;
+}
+
+.hero .form-row {
+    justify-content: center;
+}
+
+.hero label {
+    color: #fff;
+}
+
+.hero input {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.hero ::placeholder{
+    color: #fff;
 }
 
 .section-title {
@@ -62,9 +81,10 @@ footer a {
     gap: 0.5rem;
     width: 100%;
     margin-bottom: 30px;
-    border-bottom: 0.1px solid #fff;
     padding: 1rem;
+    border-bottom: 0.1px solid #fff;
 }
+
 .socials a {
     display: inline-block;
     width: 2.6rem;
@@ -79,7 +99,7 @@ footer a {
 }
 .socials a:hover {
     background-color: #fff;
-    color: #03a9f5;
+    color: rgb(87, 161, 231);
 }
 
 .text-trio {

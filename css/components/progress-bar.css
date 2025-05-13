@@ -1,11 +1,10 @@
-.progress-bar{
+.progress-bar {
     display:flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 .progress-bar .top{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: 1.1rem;

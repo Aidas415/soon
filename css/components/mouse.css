@@ -17,7 +17,7 @@
     border-radius: 0.15em;
 
     animation-name: movement;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 .mouse:hover::after{

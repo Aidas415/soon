@@ -1,9 +1,16 @@
+/*:root {
+    --color-primary: green;
+    --color-secondary: black;
+    --shadow: 0 0.2rem 0.4rem #0006;
+}
+*/
+
 html {
    scroll-behavior: smooth; 
 }
 
 .bg-blue {
-    background-color: rgb(87, 161, 231);
+    background-color: var(--color-primary);
 }
 
 .hero {
@@ -61,7 +68,7 @@ html {
 }
 
 .section-description > a {
-    color: #eb1e61;
+    color: var(--color-secondary);
     text-decoration: none;
 }
 
@@ -103,7 +110,7 @@ footer a {
 }
 .socials a:hover {
     background-color: #fff;
-    color: rgb(87, 161, 231);
+    color: var(--color-primary);
 }
 
 .text-trio {
@@ -155,8 +162,8 @@ footer .row {
     position: absolute;
     top: -1em;
     right: -1.4rem;
-    background-color: #eb1e61;
+    background-color: var(--color-secondary);
     text-align: center;
     font-size: 1.9rem;
-    box-shadow: 0 0.2em 0.4em #0006;
+    box-shadow: var(--shadow);
 }
